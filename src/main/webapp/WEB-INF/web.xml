@@ -1,0 +1,29 @@
+<web-app version="3.0"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>StockSearch</servlet-name>
+        <servlet-class>edu.uml.chrisweakley.servlets.StockSearch</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StockSearch</servlet-name>
+        <url-pattern>/servlets/StockSearch/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FollowStock</servlet-name>
+        <servlet-class>edu.uml.chrisweakley.servlets.FollowStock</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FollowStock</servlet-name>
+        <url-pattern>/servlets/FollowStock/*</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
